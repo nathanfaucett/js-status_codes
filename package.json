@@ -1,0 +1,22 @@
+{
+  "name": "status_codes",
+  "version": "0.0.1",
+  "description": "Status Codes for the browser and node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/status_codes.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "status_codes",
+    "status_codes.js"
+  ],
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "",
+    "grunt-jsbeautifier": ""
+  }
+}
+
