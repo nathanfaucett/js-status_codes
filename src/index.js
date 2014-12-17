@@ -1,8 +1,10 @@
-var isClient = !!(typeof(window) !== "undefined" && typeof(navigator) !== "undefined" && window.document),
-    http;
+var environment = require("environment");
 
 
-if (!isClient && (http = require("http")).STATUS_CODES) {
+var http;
+
+
+if (environment.node && (http = require("http")).STATUS_CODES) {
     Object.keys(http.STATUS_CODES).forEach(function(key) {
         module.exports[key] = http.STATUS_CODES[key];
     });
