@@ -1,7 +1,7 @@
-var forEach = require("for_each"),
-    http = require("http");
+var http = require("http"),
+    objectForEach = require("object-for_each");
 
 
-forEach(http.STATUS_CODES, function(value, key) {
+objectForEach(http.STATUS_CODES, function(value, key) {
     exports[key] = value;
 });
