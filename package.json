@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/status_codes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Status Codes for the browser and node.js",
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
     "grunt-jsbeautifier": "^0.2.13"
   },
   "dependencies": {
-    "@nathanfaucett/object-for_each": "^0.0.1"
+    "@nathanfaucett/object-for_each": "^0.0.2"
   }
 }
